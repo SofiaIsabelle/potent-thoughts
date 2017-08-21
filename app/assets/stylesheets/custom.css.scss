@@ -1,2 +1,76 @@
+$navbar-default-bg: #831C0A;
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+.center jumbotron h1{
+  
+}
+
+.box-frame{
+  margin: 40px;
+  background: #831C0A;
+  border: 5px solid #831C0A;
+  padding: 10px;
+  opacity: 0.9;
+}
+
+.box-frame h1{
+  font-size: 40px;
+  color: white;
+  letter-spacing: -1px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#logo{
+  float: left;
+  font-size: 1.7em;
+  color: #FFFFFF;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+#logo:hover{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.center{
+  text-align: center;
+}
+
+.jumbotron{
+  background-image: asset-url('cortex.jpg');
+  background-size: cover;
+  height: 650px;
+}
+
+.btn-xlarge{
+  font-size: 1.7em;
+  background-color:#831C0A;
+}
+
+footer{
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover{
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul{
+  float: right;
+  list-style: none;
+}
+
+footer ul li{
+  float: left;
+  margin-left: 15px;
+}
