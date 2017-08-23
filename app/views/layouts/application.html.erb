@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>NeuroLogica</title>
+    <title>PotentThoughts</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -14,6 +14,7 @@
     <div class="container">
     <%= yield %>
     </div>
-  <%= render 'layouts/footer'%>  
+  <%= render 'layouts/footer'%>
+  <%= debug(params) if Rails.env.development? %>
   </body>
 </html>
